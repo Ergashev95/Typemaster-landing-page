@@ -282,4 +282,22 @@ body {
 }
 /* KEYWORD-FUNCTION-SECTIOM */
 
+/* SITE-FOOTER */
+.site-footer {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.site-footer__text {
+    color: var(--light-blue);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.site-footer__bold {
+    font-weight: 700;
+}
+/* SITE-FOOTER */
+
 

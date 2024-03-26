@@ -240,4 +240,46 @@ body {
 /* ABOUT-SECTION */
 
 
+/* KEKWORD-FUNCTION-SECTION */
+
+.keyword {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.keyword-cards {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.keyword-card {
+    max-width: 255px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+
+}
+.keyword-card__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.keyword-card__title {
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+.keyword-card__text {
+    color: var(--light-blue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    
+}
+/* KEYWORD-FUNCTION-SECTIOM */
+
 
